@@ -33,3 +33,8 @@ extra-package-dbs: []
 
 # Allow a newer minor version of GHC than the snapshot specifies
 # compiler-check: newer-minor
+flags: {}
+packages:
+- '.'
+extra-deps: []
+resolver: lts-4.2
